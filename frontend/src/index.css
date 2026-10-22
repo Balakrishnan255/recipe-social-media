@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+    name: "black";
+    default: true;
+    --color-primary: 29,155,240;   /* RGB format (no commas) */
+    --color-secondary: 24,24,24;
+}
